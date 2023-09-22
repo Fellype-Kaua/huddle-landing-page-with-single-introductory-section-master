@@ -174,4 +174,33 @@ body .attribution a {
   body .attribution {
     bottom: 3rem;
   }
+}
+@media screen and (min-width: 1440px) {
+  body .container {
+    padding: 8rem;
+  }
+  body .container .illustration_container img {
+    width: 45dvw;
+  }
+  body .container .main_container {
+    gap: 2dvh;
+    padding: 5rem;
+  }
+  body .container .main_container h1 {
+    font-size: 7rem;
+  }
+  body .container .main_container p {
+    font-size: 2rem;
+    text-align: justify;
+  }
+  body .container .main_container button {
+    width: 40%;
+    height: 5rem;
+  }
+  body .container .footer_container {
+    grid-area: footer;
+  }
+  body .attribution {
+    bottom: 3rem;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -201,3 +201,44 @@ body {
         }
     }
 }
+@media screen and (min-width: 1440px) {
+    body {
+        .container {
+            padding: 8rem;
+
+            .header_container {
+            }
+
+            .illustration_container {
+                img{
+                    width: 45dvw;
+                }
+            }
+
+            .main_container {
+                gap: 2dvh;
+                padding: 5rem;
+
+                h1 {
+                    font-size: 7rem;
+                }
+                p{
+                    font-size: 2rem;
+                    text-align: justify;
+                }
+                button {
+                    width: 40%;
+                    height: 5rem;
+                }
+            }
+
+            .footer_container {
+                grid-area: footer;
+            }
+        }
+
+        .attribution{
+            bottom: 3rem;
+        }
+    }
+}
