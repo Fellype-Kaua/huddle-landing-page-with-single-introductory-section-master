@@ -16,7 +16,7 @@ body .container {
   display: flex;
   flex-direction: column;
   padding: 10%;
-  gap: 4rem;
+  gap: 3rem;
   font-family: "Poppins", sans-serif;
 }
 body .container .header_container img {
@@ -110,7 +110,7 @@ body .container .footer_container #instagram:hover {
 }
 body .attribution {
   position: absolute;
-  bottom: 1rem;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
